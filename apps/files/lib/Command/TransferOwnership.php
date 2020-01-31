@@ -105,7 +105,7 @@ class TransferOwnership extends Command {
 				$destinationUserObject,
 				ltrim($input->getOption('path'), '/'),
 				$output,
-				$input->hasArgument('move')
+				$input->getOption('move') === true
 			);
 		} catch (TransferOwnershipException $e) {
 			$output->writeln("<error>" . $e->getMessage() . "</error>");
