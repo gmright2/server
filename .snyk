@@ -1,0 +1,78 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-04-30T22:30:32.435Z'
+    - v-tooltip > lodash:
+        patched: '2020-04-30T22:30:32.435Z'
+    - nextcloud-vue-collections > lodash:
+        patched: '2020-04-30T22:30:32.435Z'
+    - '@nextcloud/axios > @babel/core > lodash':
+        patched: '2020-04-30T22:30:32.435Z'
+    - '@nextcloud/vue > v-tooltip > lodash':
+        patched: '2020-04-30T22:30:32.435Z'
+    - '@nextcloud/axios > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2020-04-30T22:30:32.435Z'
+    - nextcloud-vue-collections > @nextcloud/axios > @babel/core > lodash:
+        patched: '2020-04-30T22:30:32.435Z'
+    - '@nextcloud/logger > babel-plugin-transform-class-properties > babel-template > lodash':
+        patched: '2020-04-30T22:30:32.435Z'
+    - nextcloud-vue-collections > @nextcloud/vue > v-tooltip > lodash:
+        patched: '2020-04-30T22:30:32.435Z'
+    - nextcloud-vue-collections > @nextcloud/axios > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2020-04-30T22:30:32.435Z'
+    - '@nextcloud/axios > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash':
+        patched: '2020-04-30T22:30:32.435Z'
+    - '@nextcloud/logger > babel-plugin-transform-class-properties > babel-template > babel-types > lodash':
+        patched: '2020-04-30T22:30:32.435Z'
+    - '@nextcloud/logger > babel-plugin-transform-class-properties > babel-helper-function-name > babel-types > lodash':
+        patched: '2020-04-30T22:30:32.435Z'
+    - '@nextcloud/logger > babel-plugin-transform-class-properties > babel-template > babel-traverse > lodash':
+        patched: '2020-04-30T22:30:32.435Z'
+    - '@nextcloud/logger > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > lodash':
+        patched: '2020-04-30T22:30:32.435Z'
+    - '@nextcloud/logger > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > lodash':
+        patched: '2020-04-30T22:30:32.435Z'
+    - Jcrop > http-server > portfinder > async > lodash:
+        patched: '2020-04-30T22:30:32.435Z'
+    - '@nextcloud/vue > @nextcloud/axios > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash':
+        patched: '2020-04-30T22:30:32.435Z'
+    - nextcloud-vue-collections > @nextcloud/axios > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash:
+        patched: '2020-04-30T22:30:32.435Z'
+    - '@nextcloud/logger > babel-plugin-transform-class-properties > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash':
+        patched: '2020-04-30T22:30:32.435Z'
+    - '@nextcloud/logger > babel-plugin-transform-class-properties > babel-template > babel-traverse > babel-types > lodash':
+        patched: '2020-04-30T22:30:32.435Z'
+    - '@nextcloud/logger > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > babel-types > lodash':
+        patched: '2020-04-30T22:30:32.435Z'
+    - '@nextcloud/logger > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-types > lodash':
+        patched: '2020-04-30T22:30:32.435Z'
+    - '@nextcloud/logger > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > lodash':
+        patched: '2020-04-30T22:30:32.435Z'
+    - '@nextcloud/axios > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > lodash':
+        patched: '2020-04-30T22:30:32.435Z'
+    - nextcloud-vue-collections > @nextcloud/vue > @nextcloud/axios > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash:
+        patched: '2020-04-30T22:30:32.435Z'
+    - '@nextcloud/logger > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash':
+        patched: '2020-04-30T22:30:32.435Z'
+    - '@nextcloud/vue > @nextcloud/axios > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > lodash':
+        patched: '2020-04-30T22:30:32.435Z'
+    - nextcloud-vue-collections > @nextcloud/axios > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2020-04-30T22:30:32.435Z'
+    - nextcloud-vue-collections > @nextcloud/vue > @nextcloud/axios > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2020-04-30T22:30:32.435Z'
+    - '@nextcloud/vue > @nextcloud/axios > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash':
+        patched: '2020-04-30T22:30:32.435Z'
+    - '@nextcloud/vue > @nextcloud/axios > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2020-04-30T22:30:32.435Z'
+    - nextcloud-vue-collections > @nextcloud/vue > @nextcloud/axios > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-04-30T22:30:32.435Z'
+    - nextcloud-vue-collections > @nextcloud/vue > @nextcloud/axios > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-04-30T22:30:32.435Z'
+    - '@nextcloud/vue > @nextcloud/axios > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2020-04-30T22:30:32.435Z'
+    - nextcloud-vue-collections > @nextcloud/vue > @nextcloud/axios > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-04-30T22:30:32.435Z'

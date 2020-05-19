@@ -12,7 +12,9 @@
     "dev": "NODE_ENV=development webpack --progress --config webpack.dev.js",
     "watch": "NODE_ENV=development webpack --progress --watch --config webpack.dev.js",
     "lint:fix": "ESLINT_FIX=true webpack --progress --config webpack.dev.js",
-    "lint:fix-watch": "ESLINT_FIX=true webpack --progress --watch --config webpack.dev.js"
+    "lint:fix-watch": "ESLINT_FIX=true webpack --progress --watch --config webpack.dev.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -47,7 +49,7 @@
     "escape-html": "^1.0.3",
     "handlebars": "^4.7.2",
     "jcrop": "git+https://github.com/ChristophWurst/Jcrop.git#v0.9.12-npm3",
-    "jquery": "2.1.4",
+    "jquery": "3.5.0",
     "jquery-migrate": "^1.4.1",
     "jquery-ui-dist": "^1.12.1",
     "jstimezonedetect": "^1.0.7",
@@ -76,7 +78,8 @@
     "vue-multiselect": "^2.1.6",
     "vue-router": "^3.1.5",
     "vuex": "^3.1.2",
-    "vuex-router-sync": "^5.0.0"
+    "vuex-router-sync": "^5.0.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@babel/core": "^7.8.3",
@@ -116,5 +119,6 @@
   ],
   "engines": {
     "node": ">=10.0.0"
-  }
+  },
+  "snyk": true
 }
